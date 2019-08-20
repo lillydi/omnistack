@@ -1,14 +1,14 @@
 .main-container{
     max-width: 980px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 35px;
     text-align: center;
 }
 
 .main-container ul{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     grid-gap: 30px;
     margin-top: 50px;
 }
